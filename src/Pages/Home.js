@@ -131,7 +131,7 @@ const AudioFunc=()=>{
                 <LuArrowUpRight className="text_gen_color ml-2" />
               </div>
               <div className="flex items-center mt-2">
-                <Link to="https://remin-app.com" target="_blank">
+                <Link to="https://remina-app.com" target="_blank">
                   <span className="primary_redd font-bold">VISIT NOW</span>
                 </Link>
                 <FaDiagramProject className="ml-2 primary_redd" />
