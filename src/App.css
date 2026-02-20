@@ -297,18 +297,18 @@
     animation: slideInRight 1s forwards;
   }
 
-  @media (max-width: 640px) and (max-width: 812px) {
+  @media (max-width: 640px) {
     .dev_title {
-      font-size: 50px;
+      font-size: 12vw;
       color: white;
-      line-height: 55px;
+      line-height: 1.1;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-weight: bold;
       color: var(--button_bgcolor);
       text-align: center;
       margin: 0 auto;
-      padding-top: 10px;
-      margin-bottom: 50px;
+      padding-top: 20px;
+      margin-bottom: 30px;
     }
 
     .bg_container {
@@ -333,22 +333,28 @@
 
     .font_fam2 {
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      line-height: 80px;
+      font-size: 12vw;
+      line-height: 1.1;
+      text-align: center;
     }
 
     .font_fam {
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      line-height: 120px;
+      font-size: 15vw;
+      line-height: 1.1;
+      text-align: center;
     }
 
     .project_content_div2 {
       width: 100%;
       background-color: var(--button_bgcolor);
-      height: 210px;
+      height: auto;
+      min-height: 200px;
       padding: 10px;
-      margin-top: 50px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .project_content_div2 img {
@@ -392,8 +398,9 @@
     }
 
     .md_h3_style2 {
-      margin-top: 20px;
-      margin-left: 70px;
+      margin-top: 10px;
+      margin-left: 0;
+      text-align: center;
     }
 
     .md_lastdiv_style {
@@ -403,20 +410,21 @@
 
   @media (max-width: 320px) {
     .dev_title {
-      font-size: 50px;
+      font-size: 10vw;
       color: white;
-      line-height: 55px;
+      line-height: 1.1;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-weight: bold;
       color: var(--button_bgcolor);
       text-align: center;
       margin: 0 auto;
-      padding-top: 10px;
-      margin-bottom: 50px;
+      padding-top: 20px;
+      margin-bottom: 30px;
     }
 
     .md_h3_style3 {
       padding: 0 !important;
+      text-align: center;
     }
 
     .md_nav_style {
@@ -459,9 +467,13 @@
     .project_content_div2 {
       width: 100%;
       background-color: var(--button_bgcolor);
-      height: 210px;
+      height: auto;
+      min-height: 200px;
       padding: 10px;
-      margin-top: 50px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .project_content_div2 img {
@@ -505,8 +517,9 @@
     }
 
     .md_h3_style2 {
-      margin-top: 20px;
-      margin-left: 70px;
+      margin-top: 10px;
+      margin-left: 0;
+      text-align: center;
     }
 
     .md_lastdiv_style {
@@ -516,16 +529,16 @@
 
   @media only screen and  (max-width:414px) {
     .dev_title {
-      font-size: 50px;
+      font-size: 11vw;
       color: white;
-      line-height: 55px;
+      line-height: 1.1;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-weight: bold;
       color: var(--button_bgcolor);
       text-align: center;
       margin: 0 auto;
-      padding-top: 10px;
-      margin-bottom: 50px;
+      padding-top: 20px;
+      margin-bottom: 30px;
     }
 
     .md_h3_style3 {
